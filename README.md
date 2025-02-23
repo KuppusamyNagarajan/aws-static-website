@@ -25,5 +25,5 @@ This project hosts a **static website** using **Amazon S3** and **Amazon CloudFr
 4. Deploy and get the CloudFront **distribution URL**.  
 
 ### **3️⃣ Test & Access Website**  
-- Open your **CloudFront URL**:  [https://d123xyz.cloudfront.net](https://d65qjtmybp3wa.cloudfront.net)
+- Open your **CloudFront URL**: (https://d65qjtmybp3wa.cloudfront.net)
 
