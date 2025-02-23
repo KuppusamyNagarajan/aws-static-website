@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuppusamy Nagarajan - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #2c3e50, #3498db);
+            color: white;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 30px;
+            background: rgba(0, 0, 0, 0.2);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin: 0 15px;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            max-width: 600px;
+        }
+        .btn {
+            padding: 12px 24px;
+            font-size: 1.2rem;
+            color: white;
+            background: #e74c3c;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s, transform 0.2s;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background: #c0392b;
+            transform: scale(1.05);
+        }
+        .features {
+            padding: 50px 20px;
+            text-align: center;
+            background: white;
+            color: black;
+        }
+        .features h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .feature-box {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .feature {
+            width: 300px;
+            padding: 20px;
+            background: #f4f4f4;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div><strong>Kuppusamy Nagarajan</strong></div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <h1>Welcome to My Professional Website 🚀</h1>
+        <p>This site is hosted on AWS using S3 and CloudFront. Explore more about this project below.</p>
+        <a href="about.html" class="btn">Learn More</a>
+    </div>
+
+    <div class="features">
+        <h2>Key Features</h2>
+        <div class="feature-box">
+            <div class="feature">
+                <h3>Fast & Secure</h3>
+                <p>Delivered through CloudFront for speed & security.</p>
+            </div>
+            <div class="feature">
+                <h3>Scalable</h3>
+                <p>Can handle high traffic efficiently.</p>
+            </div>
+            <div class="feature">
+                <h3>Low Cost</h3>
+                <p>Minimal cost using AWS free-tier services.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2025 Kuppusamy Nagarajan | Built with AWS
+    </div>
+
+</body>
+</html>
